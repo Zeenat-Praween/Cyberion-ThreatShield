@@ -152,3 +152,26 @@ Developed as part of a cybersecurity internship project.
 
 **Project:** Cyberion ThreatShield  
 **Domain:** Cybersecurity | SOC | Threat Hunting | Detection Engineering
+
+
+## Dashboard Screenshots
+
+### Main SOC Dashboard
+
+![Main Dashboard](screenshots/main.png)
+
+### MITRE ATT&CK Detection Coverage
+
+![MITRE Coverage](screenshots/mitre_coverage.png)
+
+### Detection Rule Validation
+
+![Rule Validation](screenshots/rule_validation.png)
+
+### Alert Investigation & Analyst Notes
+
+![Investigation Notes](screenshots/investigation_notes.png)
+
+### Investigation Search and Filters
+
+![Investigation Filters](screenshots/investigation_filters.png)
