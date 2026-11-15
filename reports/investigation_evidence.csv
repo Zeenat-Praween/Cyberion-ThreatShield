@@ -1,0 +1,5 @@
+timestamp,username,source_ip,event_type,status,device
+2026-11-15 09:10:00,admin,192.168.1.12,Login,Failed,Windows
+2026-11-15 09:11:00,admin,192.168.1.12,Login,Failed,Windows
+2026-11-15 09:12:00,admin,192.168.1.12,Login,Failed,Windows
+2026-11-15 09:25:00,admin,192.168.1.12,Login,Success,Windows

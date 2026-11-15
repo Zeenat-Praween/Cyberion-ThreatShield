@@ -1,0 +1,3 @@
+username,source_ip,failed_attempts,first_attempt,last_attempt,time_window_minutes,severity,alert_type,status
+admin,192.168.1.12,3,2026-11-15 09:10:00,2026-11-15 09:12:00,15,High,Repeated Failed Login Attempts,Under Investigation
+user4,192.168.1.15,3,2026-11-15 09:50:00,2026-11-15 10:00:00,15,High,Repeated Failed Login Attempts,Under Investigation

@@ -1,0 +1,32 @@
+title: Multiple Failed Login Attempts Within 15 Minutes
+id: 8b9c2d10-1234-4567-8901-123456789002
+status: experimental
+description: Detects repeated failed login attempts from the same username and source IP within 15 minutes.
+author: Cyberion ThreatShield
+date: 2026-11-15
+
+correlation:
+    type: event_count
+
+    rules:
+        - 7a9c2d10-1234-4567-8901-123456789001
+
+    group-by:
+        - username
+        - source_ip
+
+    timespan: 15m
+
+    condition:
+        gte: 3
+
+level: high
+
+falsepositives:
+    - User repeatedly entering an incorrect password
+    - Forgotten credentials
+    - Legitimate authentication errors
+
+tags:
+    - attack.credential_access
+    - attack.t1110

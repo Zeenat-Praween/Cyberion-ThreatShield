@@ -1,0 +1,60 @@
+CYBERION THREATSHIELD
+SOC EXECUTIVE SUMMARY REPORT
+=======================================================
+Generated On: 2026-11-15 19:21:48
+
+1. SECURITY LOG DATASET
+-------------------------------------------------------
+Total Log Records: 18
+Total Columns: 6
+
+2. SECURITY ANALYSIS REPORTS
+-------------------------------------------------------
+
+Detected Security Events
+Total Records: 2
+Available Columns: username, source_ip, failed_attempts, alert_type, severity, status
+
+Password Spraying Findings
+Total Records: 1
+Available Columns: source_ip, unique_usernames, usernames, failed_attempts, time_window_minutes, finding, severity, investigation_status
+
+Threat Hunting Findings
+Total Records: 1
+Available Columns: username, source_ip, failed_attempts, successful_login_time, time_window_minutes, finding, severity, investigation_status
+
+Incident Classification
+Total Records: 1
+Available Columns: incident_id, username, source_ip, incident_category, failed_login_count, successful_login_count, severity, confidence, status, investigation_result, recommendation
+
+MITRE ATT&CK Mapping
+Total Records: 6
+Available Columns: detection_source, finding_type, username, source_ip, event_count, severity, investigation_status, recommendation, mitre_tactic, mitre_technique, mitre_technique_id, mapping_status
+
+Detection Coverage
+Total Records: 4
+Available Columns: mitre_tactic, technique, technique_id, detection_rule, detection_status, evidence, coverage
+
+Log Quality Results
+Total Records: 6
+Available Columns: Check, Issue Count, Status, Details
+
+Rule Validation Results
+Total Records: 5
+Available Columns: Test Name, Result, Details
+
+3. DETECTION RULE VALIDATION
+-------------------------------------------------------
+Total Tests: 5
+Passed Tests: 5
+Failed Tests: 0
+
+4. PROJECT OVERVIEW
+-------------------------------------------------------
+Cyberion ThreatShield is a defensive security monitoring and threat hunting platform.
+It analyzes security logs, identifies suspicious authentication patterns, maps selected findings to MITRE ATT&CK, and supports incident investigation.
+
+Note: Detected patterns are investigation indicators and do not independently confirm a security attack.
+
+=======================================================
+END OF SOC EXECUTIVE SUMMARY

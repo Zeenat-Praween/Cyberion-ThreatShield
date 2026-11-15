@@ -1,0 +1,2 @@
+username,source_ip,failed_attempts,successful_login_time,time_window_minutes,finding,severity,investigation_status
+admin,192.168.1.12,3,2026-11-15 09:25:00,30,Failed Logins Followed By Success,High,Needs Investigation

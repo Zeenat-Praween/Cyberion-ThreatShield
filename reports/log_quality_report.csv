@@ -1,0 +1,7 @@
+Check,Issue Count,Status,Details
+Required Columns,0,PASS,All required columns are available
+Missing Values,0,PASS,No missing values
+Duplicate Records,0,PASS,No duplicate records
+Timestamp Validation,0,PASS,All timestamps are valid
+Login Status Validation,0,PASS,All status values are valid
+IP Address Validation,0,PASS,All IP addresses are valid

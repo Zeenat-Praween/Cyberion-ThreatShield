@@ -1,0 +1,2 @@
+username,total_successful_logins,unique_source_ips,source_ips,alert_type,severity,investigation_status
+admin,2,2,"192.168.1.10, 192.168.1.12",Successful Logins From Multiple IPs,Medium,Needs Investigation

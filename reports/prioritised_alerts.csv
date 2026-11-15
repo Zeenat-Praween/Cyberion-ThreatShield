@@ -1,0 +1,7 @@
+detection_source,finding_type,username,source_ip,event_count,severity,investigation_status,recommendation,severity_score,risk_score,priority
+Basic Detection,Multiple Failed Login Attempts,admin,192.168.1.12,3,High,Under Investigation,Investigate repeated failed login attempts,3,33,Critical
+Basic Detection,Multiple Failed Login Attempts,user4,192.168.1.15,3,High,Under Investigation,Investigate repeated failed login attempts,3,33,Critical
+Time-Based Detection,Repeated Failed Login Attempts,admin,192.168.1.12,3,High,Under Investigation,Investigate repeated login failures within a short time,3,33,Critical
+Time-Based Detection,Repeated Failed Login Attempts,user4,192.168.1.15,3,High,Under Investigation,Investigate repeated login failures within a short time,3,33,Critical
+IP Activity Analysis,High Failed Login Activity,Multiple or Unknown,192.168.1.12,3,Medium,Needs Investigation,Review login activity and verify whether it is legitimate,2,23,High
+IP Activity Analysis,High Failed Login Activity,Multiple or Unknown,192.168.1.15,3,Medium,Needs Investigation,Review login activity and verify whether it is legitimate,2,23,High

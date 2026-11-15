@@ -1,0 +1,7 @@
+detection_source,finding_type,username,source_ip,event_count,severity,investigation_status,recommendation,mitre_tactic,mitre_technique,mitre_technique_id,mapping_status
+Basic Detection,Multiple Failed Login Attempts,admin,192.168.1.12,3,High,Under Investigation,Investigate repeated failed login attempts,Credential Access,Brute Force,T1110,Potential Technique Match
+Basic Detection,Multiple Failed Login Attempts,user4,192.168.1.15,3,High,Under Investigation,Investigate repeated failed login attempts,Credential Access,Brute Force,T1110,Potential Technique Match
+Time-Based Detection,Repeated Failed Login Attempts,admin,192.168.1.12,3,High,Under Investigation,Investigate repeated login failures within a short time,Credential Access,Brute Force,T1110,Potential Technique Match
+Time-Based Detection,Repeated Failed Login Attempts,user4,192.168.1.15,3,High,Under Investigation,Investigate repeated login failures within a short time,Credential Access,Brute Force,T1110,Potential Technique Match
+IP Activity Analysis,High Failed Login Activity,Multiple or Unknown,192.168.1.12,3,Medium,Needs Investigation,Review login activity and verify whether it is legitimate,Credential Access,Brute Force,T1110,Potential Technique Match
+IP Activity Analysis,High Failed Login Activity,Multiple or Unknown,192.168.1.15,3,Medium,Needs Investigation,Review login activity and verify whether it is legitimate,Credential Access,Brute Force,T1110,Potential Technique Match

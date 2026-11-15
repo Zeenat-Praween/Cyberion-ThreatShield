@@ -1,0 +1,6 @@
+Test Name,Result,Details
+Required Columns Validation,PASS,All required columns are available
+Brute Force Detection,PASS,Admin failed login attempts detected: 3
+Password Spraying Detection,PASS,Unique usernames with failed logins: 3
+Normal Activity Validation,PASS,Failed login attempts for user1: 0
+Timestamp Validation,PASS,Invalid timestamps found: 0

@@ -1,0 +1,2 @@
+username,source_ip,failed_login_count,successful_login_count,investigation_result,investigation_status,recommendation
+admin,192.168.1.12,3,1,Suspicious Pattern Identified,Requires Further Investigation,Verify whether the successful login was legitimate and review additional authentication records.

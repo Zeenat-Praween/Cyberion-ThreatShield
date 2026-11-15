@@ -1,0 +1,5 @@
+mitre_tactic,technique,technique_id,detection_rule,detection_status,evidence,coverage
+Credential Access,Brute Force,T1110,Multiple Failed Login Detection,Implemented,Repeated failed login attempts,Covered
+Initial Access,Valid Accounts,T1078,Not Implemented,Planned,No dedicated detection logic,Gap
+Discovery,Network Service Discovery,T1046,Not Implemented,Planned,No network discovery logs,Gap
+Credential Access,Account Discovery,T1087,Not Implemented,Planned,No account discovery detection,Gap

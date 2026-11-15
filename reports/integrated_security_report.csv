@@ -1,0 +1,8 @@
+alert_id,detection_source,finding_type,username,source_ip,event_count,severity,investigation_status,recommendation
+CTS-0001,Basic Detection,Multiple Failed Login Attempts,admin,192.168.1.12,3,High,Under Investigation,Investigate repeated failed login attempts
+CTS-0002,Basic Detection,Multiple Failed Login Attempts,user4,192.168.1.15,3,High,Under Investigation,Investigate repeated failed login attempts
+CTS-0003,Time-Based Detection,Repeated Failed Login Attempts,admin,192.168.1.12,3,High,Under Investigation,Investigate repeated failures within 15 minutes
+CTS-0004,Time-Based Detection,Repeated Failed Login Attempts,user4,192.168.1.15,3,High,Under Investigation,Investigate repeated failures within 15 minutes
+CTS-0005,IP Activity Analysis,High Failed Login Activity,Multiple or Unknown,192.168.1.12,3,Medium,Needs Investigation,Review IP activity and verify login attempts
+CTS-0006,IP Activity Analysis,High Failed Login Activity,Multiple or Unknown,192.168.1.15,3,Medium,Needs Investigation,Review IP activity and verify login attempts
+CTS-0007,Unusual Login Detection,Successful Logins From Multiple IPs,admin,"192.168.1.10, 192.168.1.12",2,Medium,Needs Investigation,Verify whether logins from multiple IPs are legitimate

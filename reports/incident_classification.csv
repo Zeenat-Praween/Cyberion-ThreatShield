@@ -1,0 +1,2 @@
+incident_id,username,source_ip,incident_category,failed_login_count,successful_login_count,severity,confidence,status,investigation_result,recommendation
+CTS-INC-0001,admin,192.168.1.12,Authentication Anomaly,3,1,High,Medium,Open - Under Investigation,Suspicious Pattern Identified,"Verify the successful login with the account owner, review additional authentication records, and check whether the activity was authorized."
